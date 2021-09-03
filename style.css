@@ -1,0 +1,18 @@
+
+
+td,th{
+    width: 200px;
+    text-align: left;
+    font-size: large;
+    font-family: sans-serif;
+}
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+
+    }
+    
+    tr:nth-child(odd) {background-color:red; }
+    tr:nth-child(even) {background-color:yellow; }
+    tr:nth-child(1) {background-color:white; }
